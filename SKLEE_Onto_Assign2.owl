@@ -1,0 +1,1082 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasFermentationFood -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasFermentationFood">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isFermentedFoodOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#FermentedVegetableFood"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasHealthBenefit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasHealthBenefit">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isHealthBenefitOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#HealthBenefit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasIngredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasIngredient">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isIngredientOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasMicroorganism -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasMicroorganism">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isMicroorganismOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Microorganism"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasNutritionalValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasNutritionalValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isNutritionalValueOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#NutritionValue"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasOriginCountry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasOriginCountry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isOriginCountryOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasSeasoning -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasSeasoning">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasIngredient"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isSeasoningOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KimchiSeasoning"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasIngredient"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isVegetableOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vegetable"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isFermentedFoodOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isFermentedFoodOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isHealthBenefitOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isHealthBenefitOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#HealthBenefit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isIngredientOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isIngredientOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isMicroorganismOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isMicroorganismOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Microorganism"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isNutritionalValueOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isNutritionalValueOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#NutritionValue"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isOriginCountryOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isOriginCountryOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isSeasoningOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isSeasoningOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isIngredientOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isVegetableOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isVegetableOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#isIngredientOf"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Anchovy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Anchovy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Seafood"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#BabyShrimp"/>
+        <Definition>Anchovy is &quot;a small fish with a strong, salty taste.&quot;</Definition>
+        <rdfs:comment>Salted anchovy extract liquid is used.</rdfs:comment>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/anchovy</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#AntiagingEffect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#AntiagingEffect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#HealthBenefit"/>
+        <Definition>&quot;The effect of kimchi intake on antiaging characteristics, free radical production, and antioxidative enzyme activities in the brains of senescence-accelerated mice has also been evaluated. Kimchi consumption moderated the increase in free radical production due to aging.&quot;</Definition>
+        <rdfs:isDefinedBy>Park, K. Y., Jeong, J. K., Lee, Y. E., &amp; Daily III, J. W. (2014). Health benefits of kimchi (Korean fermented vegetables) as a probiotic food. Journal of medicinal food, 17(1), 6-20.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Anticancer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Anticancer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#HealthBenefit"/>
+        <Definition>&quot;Kimchi exhibited antimutagenicity against aﬂatoxin B1 and N-methyl-Nnitro-N-nitrosoguanidine (MNNG) in the Ames test and in the SOS chromotest in vitro.  b-sitosterol and a linoleic acid derivative were the main active compounds that showed anticancer activity in kimchi.&quot;</Definition>
+        <rdfs:isDefinedBy>Park, K. Y., Jeong, J. K., Lee, Y. E., &amp; Daily III, J. W. (2014). Health benefits of kimchi (Korean fermented vegetables) as a probiotic food. Journal of medicinal food, 17(1), 6-20.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#AntidiabeticEffect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#AntidiabeticEffect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#HealthBenefit"/>
+        <Definition>&quot;Kimchi has blood glucose lowering and antidiabetic effects.&quot;</Definition>
+        <rdfs:isDefinedBy>Park, K. Y., Jeong, J. K., Lee, Y. E., &amp; Daily III, J. W. (2014). Health benefits of kimchi (Korean fermented vegetables) as a probiotic food. Journal of medicinal food, 17(1), 6-20.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#AntiobesityEffect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#AntiobesityEffect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#HealthBenefit"/>
+        <Definition>&quot;Capsaicin in red pepper can cause body fat loss in the body by stimulating spinal nerves and thus activating the release of catecholamines in the adrenal glands.&quot;</Definition>
+        <rdfs:isDefinedBy>Park, K. Y., Jeong, J. K., Lee, Y. E., &amp; Daily III, J. W. (2014). Health benefits of kimchi (Korean fermented vegetables) as a probiotic food. Journal of medicinal food, 17(1), 6-20.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#AntioxidativeEffect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#AntioxidativeEffect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#HealthBenefit"/>
+        <Definition>&quot;Antioxidative and anticancer effects are very important probiotic functionalities of microorganisms in human health. The antioxidative activity of Lab. plantarum KCTC 3099 from kimchi was evaluated by measuring the resistance to active oxygen species. Intact cell and cell-free extracts of Lab. plantarum exhibited potent antioxidative activity in inhibiting lipid oxidation.&quot;</Definition>
+        <rdfs:isDefinedBy>Park, K. Y., Jeong, J. K., Lee, Y. E., &amp; Daily III, J. W. (2014). Health benefits of kimchi (Korean fermented vegetables) as a probiotic food. Journal of medicinal food, 17(1), 6-20.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#BabyShrimp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#BabyShrimp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Seafood"/>
+        <Definition>Shrimp is &quot;a very small sea creature similar to a prawn but smaller, or its flesh eaten as food.&quot;</Definition>
+        <rdfs:comment>Salted baby shrimp is used.</rdfs:comment>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/shrimp</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#BaechuKimchi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#BaechuKimchi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChineseCabbage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#GreenOnion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Onion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>Baechu kimchi is made of Chinese cabbage, green onion, and onion.</Definition>
+        <rdfs:isDefinedBy>Seung-Kyoo Lee</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#BetaCarotene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#BetaCarotene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vitamin"/>
+        <Definition>Beta Caroten is &quot;a reddish-orange pigment that is an an isomer of carotene found chiefly in orange and dark green and yellow vegetables and fruits (such as carrots, sweet potatoes, and spinach) and that is converted to vitamin A in the body.&quot;</Definition>
+        <rdfs:isDefinedBy>https://www.merriam-webster.com/dictionary/beta-carotene</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Ca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Ca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#DietaryMineral"/>
+        <Definition>Calcium (C) is one of macrominerals.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChineseCabbage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChineseCabbage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vegetable"/>
+        <Definition xml:lang="en">&quot;Many types of B.rapa vegetables were traditionally used as vegetables in East Asian countries including China, Japan and Korea. Chinese cabbage [B.rapaL. ssp. pekinensis (Lour) Olsson] is the most common type of vegetable in B. rapa eaten as fermented food  “Kimchi” in Korea and as a fried vegetable in China.&quot;</Definition>
+        <rdfs:isDefinedBy>Kole, C., &amp; Henry, R. J. (Eds.). (2010). Genetics, genomics and breeding of crop plants. Science Publishers. (p.58)</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">Napa Cabbage</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChonggakKimchi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChonggakKimchi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChonggakMoo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#GreenOnion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>Chonggak Kimchi is made of chonggakmoo and green onion. Its whole daikon including leaves is used.</Definition>
+        <rdfs:isDefinedBy>Seung-Kyoo Lee</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChonggakMoo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChonggakMoo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KoreanRadish"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChosunMoo"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#YeolMoo"/>
+        <Definition>Chonggakmoo is a Korean radish. Its root is much smaller than chosunmoo.</Definition>
+        <rdfs:isDefinedBy>Seung-Kyoo Lee</rdfs:isDefinedBy>
+        <rdfs:seeAlso>Korean Ponytail Radish</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChosunMoo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChosunMoo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KoreanRadish"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#YeolMoo"/>
+        <Definition>Compared to Japanese radish, this full grown radish is named after Korea&apos;s last dynasty, Chosun.</Definition>
+        <rdfs:isDefinedBy>Seung-Kyoo Lee</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Country">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#FermentedVegetableFood"/>
+        <Definition>Country means &quot;an area of land that has its own government, army, etc.&quot;</Definition>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/country</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Cucumber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Cucumber">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vegetable"/>
+        <Definition>Cucumber is &quot;a long, thin, pale green vegetable with dark green skin, usually eaten uncooked in salads.&quot;</Definition>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/cucumber?q=cucumber</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#DietaryMineral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#DietaryMineral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#NutritionValue"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vitamin"/>
+        <Definition>&quot;Minerals are important for your body to stay healthy.  You need larger amounts of macrominerals. They include calcium, phosphorus, magnesium, sodium, potassium, chloride and sulfur. You only need small amounts of trace minerals. They include iron, manganese, copper, iodine, zinc, cobalt, fluoride and selenium.&quot;</Definition>
+        <rdfs:isDefinedBy>https://medlineplus.gov/minerals.html</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#DongchimiKimchi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#DongchimiKimchi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChosunMoo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#GreenOnion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>Donchimi is a water kimchi made of chosunmoo and green onion.</Definition>
+        <rdfs:isDefinedBy>Seung-Kyoo Lee</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Fe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Fe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#DietaryMineral"/>
+        <Definition>&quot; Iron{Fe} is a mineral that our bodies need for many functions. For example, iron is part of hemoglobin, a protein which carries oxygen from our lungs throughout our bodies. It helps our muscles store and use oxygen. Iron is also part of many other proteins and enzymes.&quot;</Definition>
+        <rdfs:isDefinedBy>https://medlineplus.gov/iron.html</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#FermentedVegetableFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#FermentedVegetableFood">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <Definition>&quot;Fermented vegetables are believed to have a positive impact on health. Kimchi and sauerkraut are probably the most popular fermented vegetable when these come to purported health beneficial properties.&quot;</Definition>
+        <rdfs:isDefinedBy>Laura Lavefve, Daya Maracini, Franck Carbonero(2019). Microbial Ecology of Fermented Vegetables and Non-Alcoholic Drinks and Current Knowledge on Their Impact on Human Health in Advances in Food and Nutrition Research (pp.158)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Garlic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Garlic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Spice"/>
+        <Definition>&quot;Garlic is an herb that is grown around the world. It is related to onion, leeks, and chives. It is thought that garlic is native to Siberia, but spread to other parts of the world over 5000 years ago.&quot;</Definition>
+        <rdfs:comment>Mash or grind fresh garlic.</rdfs:comment>
+        <rdfs:isDefinedBy>https://www.webmd.com/vitamins/ai/ingredientmono-300/garlic</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#GatKimchi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#GatKimchi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#MustardGreen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Onion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#MustardGreen"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Onion"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>Mustard kimchi is made of mustard green and onion. It only has vegetables of mustard green and onion.</Definition>
+        <rdfs:isDefinedBy>Seung-Kyoo Lee</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Ginger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Ginger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Spice"/>
+        <Definition>&quot;Ginger is a plant with leafy stems and yellowish green flowers. The ginger spice comes from the roots of the plan.&quot;</Definition>
+        <rdfs:isDefinedBy>https://www.webmd.com/vitamins/ai/ingredientmono-961/ginger</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#GreenOnion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#GreenOnion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vegetable"/>
+        <Definition>Green onion is &quot;a long, thin, green and white onion that is often eaten uncooked.&quot;</Definition>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/green-onion</rdfs:isDefinedBy>
+        <rdfs:seeAlso>scallion</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#HealthBenefit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#HealthBenefit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#FermentedVegetableFood"/>
+        <Definition>Health benefit is  &quot;a helpful or good effect, or something intended to help the condition of the body and the degree to which it is free from illness, or the state of being well.&quot;</Definition>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/health</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ImmuneStimulatoryEffect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ImmuneStimulatoryEffect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#HealthBenefit"/>
+        <Definition>&quot;The cell wall fraction of Lab. plantarum from kimchi activated the phagocytic activity of macrophages in mice.  Administration of a culture broth of Lab. plantarum from kimchi to mice increased immune function. This compound can stimulate macrophages and produce superoxide anion and H2O2 and kill tumor cells.&quot;</Definition>
+        <rdfs:isDefinedBy>Park, K. Y., Jeong, J. K., Lee, Y. E., &amp; Daily III, J. W. (2014). Health benefits of kimchi (Korean fermented vegetables) as a probiotic food. Journal of medicinal food, 17(1), 6-20.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#K -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#K">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#DietaryMineral"/>
+        <Definition>Potassium (K)  is &quot;a mineral that your body needs to work properly. It is a type of electrolyte. It helps your nerves to function and muscles to contract. It helps your heartbeat stay regular. It also helps move nutrients into cells and waste products out of cells. A diet rich in potassium helps to offset some of sodium&apos;s harmful effects on blood pressure.&quot;</Definition>
+        <rdfs:isDefinedBy>https://medlineplus.gov/potassium.html</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#FermentedVegetableFood"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasHealthBenefit"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#HealthBenefit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasMicroorganism"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Microorganism"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasNutritionalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#NutritionValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasSeasoning"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KimchiSeasoning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasOriginCountry"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>&quot;Kimchi is Korea&apos;s representative ethnic food and unique food, without anything similar in other countries. Kimchi is made by fermenting Chinese cabbage or radish with lactic acid bacteria and there are about 200 types of kimchi in Korea.&quot;</Definition>
+        <Definition>Jang, D. J., Chung, K. R., Yang, H. J., Kim, K. S., &amp; Kwon, D. Y. (2015). Discussion on the origin of kimchi, representative of Korean unique fermented vegetables. Journal of Ethnic Foods, 2(3), 126-136.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KimchiSeasoning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KimchiSeasoning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#FermentedVegetableFood"/>
+        <Definition>Seasoning is &quot;an ingredient (such as a condiment, spice, or herb) added to food primarily for the savor that it imparts.&quot;</Definition>
+        <rdfs:isDefinedBy>https://www.merriam-webster.com/dictionary/seasoning</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KkakdugiKimchi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KkakdugiKimchi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChosunMoo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#GreenOnion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>Kkakdugi kimchi is made of chosunmoo and green onion. Dice chosunmoo to make this kimchi.</Definition>
+        <rdfs:isDefinedBy>Seung-Kyoo Lee</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Korea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Korea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Country"/>
+        <Definition>Korea is located in East Asia. Since 1948, Korea has been divided into South Korea and North Korea. North Korea is bordered by China and Russia.</Definition>
+        <rdfs:isDefinedBy>Seung-Kyoo Lee</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KoreanChili -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KoreanChili">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Spice"/>
+        <Definition>Korean chili is from Korea and has spicy flavor. It is also used in all kinds of Korean dishes. Chili is &quot;any of several types of red pepper that are used to make foods spicy.&quot;</Definition>
+        <rdfs:comment>To make kimchi, use coarse chili powder.</rdfs:comment>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/chili-pepper?q=chili+%28pepper%29</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KoreanRadish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KoreanRadish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vegetable"/>
+        <Definition>Radish is &quot;a type of white radish popular in Korea, Japan, and China.&quot;
+Korean radish is shorter and rounder than Japanese radish.</Definition>
+        <rdfs:comment>Daikon is called &quot;Moo&quot; in Korean.</rdfs:comment>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/daikon?q=daikon+radish</rdfs:isDefinedBy>
+        <rdfs:seeAlso>Daikon
+ &quot;a large long hard white radish used especially in Asian cuisine&quot;</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#LactobacillusPlantarum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#LactobacillusPlantarum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Microorganism"/>
+        <Definition>Good bacteria is called probiotics, “from the Latin and Greek words meaning “for life.” Lactobacillus Plantarum is one of probiotics bacteria and belongs to Lactobacillus which is part of Lactic Acid Bacteria group.</Definition>
+        <rdfs:isDefinedBy>https://www.health.harvard.edu/staying-healthy/the-benefits-of-probiotics</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#LactobacillusSakei -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#LactobacillusSakei">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Microorganism"/>
+        <Definition>Lactobacillus Sakei is &quot;an important food-associated lactic acid bacterium (LAB).
+An important property of the bacterium is the production of lactic acid that acidifies the product and both inhibits growth of spoilage bacteria and food pathogens, and confers taste and texture to the fermented products.&quot;</Definition>
+        <rdfs:isDefinedBy>https://bmcmicrobiol.biomedcentral.com/articles/10.1186/1471-2180-10-120</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#LeuconostocCitreum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#LeuconostocCitreum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Microorganism"/>
+        <Definition>Leuconostoc Citreum is one of Leuconostoc species. &quot;Leuconostoc is a genus of Gram-positive bacteria, heterofermentative, and are able to produce dextran from sucrose.&quot;</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#LeuconostocGasicomitatum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#LeuconostocGasicomitatum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Microorganism"/>
+        <Definition>Leuconostoc gasicomitatum is one of Leuconostoc species. &quot;Leuconostoc spp. are widespread in the environment, and have been isolated from plant matter, human clinical sources, and foods, such as chill-stored and fermented meats, fermented vegetables (e.g., sauerkraut, kimchi), and fermented dairy products (e.g., cheese, kefir, yogurt).&quot;</Definition>
+        <rdfs:isDefinedBy>https://www.sciencedirect.com/topics/food-science/leuconostoc</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#LeuconostocInhae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#LeuconostocInhae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Microorganism"/>
+        <Definition>Leuconostoc Inhae is one  of Leuconostoc species. &quot;Leuconostoc is a genus of Gram-positive bacteria, heterofermentative, and are able to produce dextran from sucrose.&quot;</Definition>
+        <rdfs:isDefinedBy>https://www.sciencedirect.com/topics/food-science/leuconostoc</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Microorganism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Microorganism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#FermentedVegetableFood"/>
+        <Definition>&quot;A microorganism is a living thing that is too small to be seen with the naked eye. Examples of microorganisms include bacteria, archaea, algae, protozoa, and microscopic animals such as the dust mite.&quot;
+ 
+&quot;Among LAB found in kimchi includes Lactobacillus plantarum, Lactobacillus sake, Leuconostoc mesenteroides, Leuconostoc lactis, Leuconostoc citreum, Pediococcus pentosaceus, Weissella cibaria, Weissella confusa, Weissella koreensis, etc. (Lee et al. 2002; Cho et al. 2006; Lee and Lee 2010).&quot;</Definition>
+        <rdfs:isDefinedBy>Microorganism (https://biologydictionary.net/microorganism/)
+Lactic Acid Bateria (https://sfamjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2672.2012.05348.x)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Mineral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Mineral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KimchiSeasoning"/>
+        <Definition>Mineral is &quot;a substance that exists naturally in foods, water, or the ground, and is not a living organism.&quot;</Definition>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/mineral</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#MustardGreen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#MustardGreen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vegetable"/>
+        <Definition xml:lang="en">&quot;Red mustard greens have broad wrinkled leaves with a violet purple overlay and purple-green variegation. The leaves grow to 30 centimeters in length and up to 12 centimeters in width. Red mustard leaves are succulent and tender when young with a moderate peppery note and subtle nutty finish. As they mature, flavors sharpen and become more robust with notes of pepper, garlic and mustard.&quot;</Definition>
+        <rdfs:isDefinedBy>https://www.specialtyproduce.com/produce/Red_Mustard_Greens_289.php</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#NabakKimchi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#NabakKimchi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChineseCabbage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChosunMoo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChineseCabbage"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChosunMoo"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>Nabak Kimchi is made of sliced chosunmoo and cabbage. It only has vegetables of chosunmoo and cabbage.</Definition>
+        <rdfs:isDefinedBy>Seung-Kyoo Lee</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#NutritionValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#NutritionValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#FermentedVegetableFood"/>
+        <Definition>Nutritional value is &quot;relating to nutrition, or containing a food substance your body can use.&quot;</Definition>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/nutritional?topic=diets-and-dieting</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#OisobagiKimchi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#OisobagiKimchi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Cucumber"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#GreenOnion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Cucumber"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#GreenOnion"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>Oisobagi kimchi is made of cucumber and green onion. This kimchi only has vegetables of cucumber and green onion.</Definition>
+        <rdfs:isDefinedBy>Seung-Kyoo Lee</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Onion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Onion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vegetable"/>
+        <Definition xml:lang="en">Onion is &quot;a vegetable with a strong smell and flavour, made up of several layers surrounding each other tightly in a round shape, usually brown or red on the outside and white inside.&quot;</Definition>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/onion</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#P -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#P">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#DietaryMineral"/>
+        <Definition>&quot;Phosphorus (P) is a mineral that makes up 1% of a person&apos;s total body weight. It is the second most abundant mineral in the body. It is present in every cell of the body. Most of the phosphorus in the body is found in the bones and teeth.&quot;</Definition>
+        <rdfs:isDefinedBy>https://medlineplus.gov/ency/article/002424.htm</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#SeaSalt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#SeaSalt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Mineral"/>
+        <Definition>Salt is &quot;a common white substance found in sea water and in the ground, used especially to add flavour to food or to preserve it. Sea salt is produced from ocean water.&quot;  It contains minerals and helps preserve kimchi for a long time.&quot;</Definition>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/salt</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Seafood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Seafood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KimchiSeasoning"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Spice"/>
+        <Definition>Seafood is &quot;animals from the sea that can be eaten, especially fish or sea creatures with shells.&quot;</Definition>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/seafood</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Spice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Spice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KimchiSeasoning"/>
+        <Definition>Spice is &quot;a substance made from a plant, used to give a special flavour to food.&quot;</Definition>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/spice</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vegetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vegetable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#FermentedVegetableFood"/>
+        <Definition>Vegetable is &quot;a usually herbaceous plant (such as the cabbage, bean, or potato) grown for an edible part that is usually eaten as part of a meal.&quot;</Definition>
+        <Definition>https://www.merriam-webster.com/dictionary/vegetable</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vitamin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vitamin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#NutritionValue"/>
+        <Definition>Vitamin is &quot;any of a group of natural substances that are necessary in small amounts for growth and good health and that are obtained from food.&quot;</Definition>
+        <rdfs:isDefinedBy>https://dictionary.cambridge.org/dictionary/english/vitamin</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#VitaminBComplex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#VitaminBComplex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vitamin"/>
+        <Definition>Vitamin B complex is &quot;a group of water-soluble vitamins that are found especially in yeast, seed germs, eggs, liver and flesh, and vegetables and that have varied metabolic functions and include coenzymes and growth factors.&quot;</Definition>
+        <rdfs:isDefinedBy>https://www.merriam-webster.com/dictionary/vitamin%20B%20complex</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#VitaminC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#VitaminC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vitamin"/>
+        <Definition>Vitamin C is &quot;a water-soluble vitamin C6H8O6 found in plants and especially in fruits and leafy vegetables or made synthetically and used in the prevention and treatment of scurvy and as an antioxidant for foods.&quot;</Definition>
+        <rdfs:isDefinedBy>https://www.merriam-webster.com/dictionary/vitamin%20C</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#WeissellaKoreensis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#WeissellaKoreensis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Microorganism"/>
+        <Definition>Weussella Koreensis is part of &quot;lactic acid bacteria (LAB), the major group of bacteria that grows on kimchi. W. koreensis is a psychrophilic bacterium and is the dominating species in kimchi produced at −1°C.&quot;</Definition>
+        <rdfs:isDefinedBy>Moon, Y. J., Soh, J. R., Yu, J. J., Sohn, H. S., Cha, Y. S., &amp; Oh, S. H. (2012). Intracellular lipid accumulation inhibitory effect of W eissella koreensis OK 1‐6 isolated from K imchi on differentiating adipocyte. Journal of applied microbiology, 113(3), 652-658.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#YeolMoo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#YeolMoo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KoreanRadish"/>
+        <Definition>Yeolmoo is a young Korean radish.</Definition>
+        <rdfs:isDefinedBy>Seung-Kyoo Lee</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#YeolmuKimchi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#YeolmuKimchi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#GreenOnion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasVegetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#YeolMoo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>Yeolmu Kimchi is made of Korean yeolmoo and green onion.</Definition>
+        <rdfs:isDefinedBy>Seung-Kyoo Lee</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <Definition>Thing means &quot;an object or entity not precisely designated or capable of being designated.&quot;</Definition>
+        <rdfs:isDefinedBy>https://www.merriam-webster.com/dictionary/thing</rdfs:isDefinedBy>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#AntiagingEffect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Anticancer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#AntidiabeticEffect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#AntiobesityEffect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#AntioxidativeEffect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ImmuneStimulatoryEffect"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#BaechuKimchi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChonggakKimchi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#DongchimiKimchi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#GatKimchi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KkakdugiKimchi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#NabakKimchi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#OisobagiKimchi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#YeolmuKimchi"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#BetaCarotene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#VitaminBComplex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#VitaminC"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#ChineseCabbage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Cucumber"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#GreenOnion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KoreanRadish"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#MustardGreen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Onion"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Country"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#HealthBenefit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Kimchi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KimchiSeasoning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Microorganism"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#NutritionValue"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Vegetable"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Garlic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Ginger"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#KoreanChili"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#LactobacillusPlantarum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#LactobacillusSakei"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#LeuconostocCitreum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#LeuconostocInhae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#WeissellaKoreensis"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Mineral"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Seafood"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#Spice"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasHealthBenefit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasIngredient"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasMicroorganism"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasNutritionalValue"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sn355024/ontologies/2020/2/untitled-ontology-5#hasOriginCountry"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
